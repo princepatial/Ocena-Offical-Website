@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+}
+.about-content {
+    height: 100vh;
+    position: relative;
+    cursor: pointer;
+    margin-top: -35px;
+}
+
+.about-navbar {
+  background-color: transparent;
+}
+
+
+.main-parent {
+  border-radius: 10px;
+  background: #0000;
+  box-shadow: 0 0 10px #00000080;
+  height: 100%;
+  width: 50%;
+  margin-left: 25%;
+  padding: 0 70px;
+  margin-top: 70px;
+}
+
+  .background-video {
+    position: absolute;
+    top: -176px;
+    left: 0;
+    width: 99.5vw; 
+    height: 140vh; 
+    object-fit: cover; 
+    z-index: -1;  
+    filter: brightness(0.7);
+  }
+  .text-over-here {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 20px;
+  }
+
+  .text-over-here h1 {
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #00000080;
+    width: 30%;
+    margin-left: 33%;
+    border-radius: 10px ;
+    box-shadow: 0 0 10px #00000080;
+    background: #0000;
+  }
+
+
+  .text-over-here1 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 155px;
+  }
+  .text-over-here1 h1 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 30px;
+    border: 1px solid #00000080;
+    width: 35%;
+    margin-left: 32%;
+    border-radius: 10px ;
+    box-shadow: 0 0 10px #00000080;
+    background: #0000;
+  }
+  #para{
+    width: 630px;
+    text-align: justify;
+    font-weight: bold;
+    color: #C3C3C3;
+    margin-top: 15px;
+    
+}
+
+#para-one{
+    width: 630px;
+    text-align: justify;
+    font-weight: bold;
+    color: #C3C3C3;
+    margin-top: 15px;
+    
+}
+
+#para-two{
+    width: 630px;
+    text-align: justify;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #C3C3C3;
+    
+}
+
+#para-three{
+    width: 630px;
+    text-align: justify;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #C3C3C3;
+    
+}
+
+.about-with-footer{
+  padding-bottom: 101px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .text-over-here, .text-over-here1 {
+    padding: 15px; 
+    max-width: 90%; 
+  }
+
+  .background-video {
+    margin-top: -10px;
+  }
+  .main-parent {
+    margin-left: 90px;
+    width: 80%;
+
+  }
+  .text-over-here h1 {
+    margin-left: 22%;
+  }
+  .text-over-here1 h1 {
+    margin-left: 22%;
+  }
+
+  #para {
+    width: 80%;
+  }
+  #para-one {
+    width: 80%;
+  }
+  #para-two {
+    width: 80%;
+  }
+  #para-three {
+    width: 80%;
+  }
+
+}
+
+/* From 481px to 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+ 
+  .background-video {
+    margin-top: -120px;
+    height: 150vh;
+  }
+  .main-parent {
+    margin-left: 90px;
+    width: 80%;
+    height: 89vh;
+    margin-top: 58px;
+
+  }
+  .text-over-here h1 {
+    margin-left: 22%;
+  }
+  .text-over-here1 h1 {
+    margin-left: 22%;
+  }
+
+  #para {
+    width: 80%;
+    font-size: 0.8rem;
+  }
+  #para-one {
+    width: 80%;
+    font-size: 0.8rem;
+  }
+  #para-two {
+    width: 80%;
+    font-size: 0.8rem;
+  }
+  #para-three {
+    width: 80%;
+    font-size: 0.8rem;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+  .background-video {
+    margin-top: -160px;
+    position: absolute;
+    left: 0;
+    width: 100vw; 
+    height: 140vh; 
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.7);
+  }
+  
+
+.main-parent {
+    margin-left: 50px;
+    width: 78%;
+    height: 92vh;
+    margin-top: 35px;
+
+  }
+  .text-over-here h1 {
+    font-size: 1rem;
+    margin-left: 22%;
+  }
+  .text-over-here1 h1 {
+    font-size: 1rem;
+    margin-top: px;
+    margin-left: 22%;
+  }
+
+  #para {
+    width: 80%;
+    font-size: 0.6rem;
+  }
+  #para-one {
+    width: 80%;
+    font-size: 0.6rem;
+  }
+  #para-two {
+    width: 80%;
+    font-size: 0.6rem;
+  }
+  #para-three {
+    width: 80%;
+    font-size: 0.6rem;
+  }
+
+
+
+
+
+
+
+
+
+  .about-content {
+      padding: 5px; 
+  }
+
+  .main-parent {
+      padding: 5px; 
+  }
+
+  h1 {
+      font-size: 20px; 
+  }
+
+  p {
+      font-size: 12px; 
+      line-height: 1.5; 
+  }
+
+  .text-over-here,
+  .text-over-here1 {
+      margin: 15px 0; 
+  }
+}
+
